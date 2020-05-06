@@ -1,5 +1,5 @@
 {% set name = "Pebble" %}
-{% set version = "4.5.1" %}
+{% set version = "4.5.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 26fdcc0f36d93d8e07559d36b942b7800c6b9622626d5b587ab1a74820d02732
+  sha256: b670f80cc2f3fa4a69a24fbc39b50670a4f2c649438716a0208702d7d37e4d59
 
 build:
   noarch: python
@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://pebble.readthedocs.io/
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_family: LGPL
   license_file: LICENSE
   summary: Pebble provides a neat API to manage threads and processes within an application.
