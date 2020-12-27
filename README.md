@@ -5,11 +5,11 @@ Home: https://pebble.readthedocs.io/
 
 Package license: LGPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pebble-feedstock/blob/master/LICENSE.txt)
 
 Summary: Pebble provides a neat API to manage threads and processes within an application.
 
-
+Development: https://github.com/noxdafox/pebble
 
 Current build status
 ====================
