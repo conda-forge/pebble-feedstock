@@ -1,5 +1,5 @@
 {% set name = "Pebble" %}
-{% set version = "5.0.3" %}
+{% set version = "5.0.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bdcfd9ea7e0aedb895b204177c19e6d6543d9962f4e3402ebab2175004863da8
+  sha256: 6f7adf2bded4414bdd3562d5f4d567bd94ff101e726aff878a66575bc99c122b
 
 build:
   noarch: python
